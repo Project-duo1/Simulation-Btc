@@ -1,0 +1,69 @@
+body{
+   background-image:url(C:/Users/PC/Desktop/Simulation-Btc/logos/background.jpg);
+  background-size: 1380px 680px;	
+ background-repeat: no-repeat;
+}
+#paradoxlogo{
+	visibility: visible;
+	width:270px;
+	position:relative;
+	left:560px;
+	top:130px
+}
+#paradox-system{
+	visibility: visible;
+	width:230px;
+	position:relative;
+	left:305px;
+	top:290px
+}
+#on-button{
+	visibility: visible;
+	width:50px;
+	position:relative;
+	left:795px;
+	top:-180px
+}
+#loading-logo{
+	visibility: hidden;
+	width:80px;
+	position:relative;
+	left:656px;
+	top:140px;
+	animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+#user-name-logo{
+	visibility: hidden;
+	width:250px;
+	position:relative;
+	left:571px;
+	top:80px;
+}
+#user-name{
+	width:225px;
+	visibility: hidden;
+	border:solid 1px;
+	background: transparent;
+	font-size:20px;
+	font-family:Verdana;
+	border-radius: 3px;
+	position:relative;
+	left:325px;
+	top:119px
+}
+
+::placeholder {
+  color: black;
+  opacity: 10;
+  font-size:18px
+}
