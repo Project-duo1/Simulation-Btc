@@ -66,7 +66,49 @@ $(document).on("keypress", function(e){
                    
                     $("#check").css("visibility","visible")
                     $("#command").val("") 
-        		}
+        		}if($("#command").val()==="open-wallet"){
+                    $("#command").css("visibility","hidden")
+	$("#prog-wallet").css("visibility","visible")
+	$("#icon").attr("src","logos/wallet.png")
+	$("#logo-stom-prog").css("visibility","visible")
+	$("#your-balance").css("visibility","visible")
+	$("#balance-value").css("visibility","visible")
+	$("#stom-logo").css("visibility","visible")
+	$("#x-logo").css("visibility","visible")
+	$("#cmd").css("visibility","hidden")
+    $("#miner-electro-logo").css("visibility","hidden")
+    $("#x-0").css("visibility","hidden")
+    $("#name-miner").css("visibility","hidden")
+    $("#name-miner").css("visibility","hidden")
+    $("#x-logo-0").css("visibility","hidden")
+    $("#check").css("visibility","hidden")
+    $("#recycle-0").css("visibility","hidden")
+	$("#recycle-1").css("visibility","hidden")
+   $("#card0").css("visibility","hidden")
+    $("#x-logo-1").css("visibility","hidden")
+    $("#help").css("visibility","hidden")	
+        		}if($("#command").val()==="open-recycle"){
+        			$("#icon").attr("src","logos/recycle.png")
+	$("#prog-wallet").css("visibility","visible")
+	$("#logo-stom-prog").css("visibility","hidden")
+	$("#your-balance").css("visibility","hidden")
+	$("#balance-value").css("visibility","hidden")
+	$("#stom-logo").css("visibility","hidden")
+	$("#x-logo").css("visibility","hidden")
+	$("#x-logo-0").css("visibility","hidden")
+	$("#miner-electro-logo").css("visibility","hidden")
+	$("#name-miner").css("visibility","hidden")
+	$("#command").css("visibility","hidden")
+    $("#cmd").css("visibility","hidden")
+
+	$("#recycle-0").css("visibility","visible")
+	$("#recycle-1").css("visibility","visible")
+    $("#x-logo-1").css("visibility","visible")
+    $("#card0").css("visibility","visible")
+    $("#help").css("visibility","hidden")
+}if($("#command").val()==="close-system"){
+window.open("systemdown.html")
+}
         	}
         }
     })

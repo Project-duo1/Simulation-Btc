@@ -1,5 +1,5 @@
 body{
-   background-image:url(C:/Users/PC/Desktop/Simulation-Btc/logos/system-open.png);
+   background-image:url(logos/system-open.png);
   background-size: 1380px 680px;	
  background-repeat: no-repeat;
 }
@@ -228,11 +228,11 @@ body{
 	top:-150px;
 	left:350px
 }
-#ds-0{
-	visibility:visible;
-	width:150px;
-	position:relative;
-	top:-150px;
-	left:550px;
-	
-}
+	#ds-0{
+		visibility:visible;
+		width:150px;
+		position:relative;
+		top:-150px;
+		left:550px;
+		
+	}
