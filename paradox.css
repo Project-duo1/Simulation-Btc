@@ -195,5 +195,44 @@ body{
 	position:relative;
 	top:-84px;
 	left:450px;
-	font-size:21px
+	font-size:14px
+}
+#recycle-0{
+	visibility:hidden;
+	width:28px;
+	position: relative;
+	top:-160px;
+	left:450px
+}
+#recycle-1{
+	visibility:hidden;
+	width:82px;
+	position: relative;
+	top:-161px;
+	left:330px
+}
+#x-logo-1{
+	visibility:hidden;
+	width:50px;
+	position:relative;
+	left:848px;
+	top:-150px
+}
+#card0{
+	visibility:hidden;
+	border-radius:5px;
+	width:650px;
+	height:350px;
+	background:linear-gradient(90deg,#959595,#D9DAD5,#D9DAD5,#959595);
+	position:relative;
+	top:-150px;
+	left:350px
+}
+#ds-0{
+	visibility:visible;
+	width:150px;
+	position:relative;
+	top:-150px;
+	left:550px;
+	
 }
